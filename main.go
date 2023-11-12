@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/Taliw-ph/go-sunday-project/libs"
+)
 
 func main() {
-	fmt.Println("Hello! สวัสดี!");
+	fmt.Println("Start App!")
+	libs.Greeting()
+	fmt.Println("Close App!")
 }
